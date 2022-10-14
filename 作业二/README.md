@@ -93,7 +93,7 @@ public class xuanke {
 
 六、系统运行截图
 ====
-
+![系统运行结果](https://github.com/Keefe1349/java/blob/main/%E4%BD%9C%E4%B8%9A%E4%BA%8C/%E7%B3%BB%E7%BB%9F%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
 七、感想与体会
 ====
 学会了使用类和构造方法，并将类关联起来。
