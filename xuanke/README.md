@@ -22,10 +22,10 @@
 
 五、关键代码
 ====
+1.定义teacher类
 
-package xuanke;
-//教师（编号、姓名、性别、所授课程、......）
 class teacher{
+
 	int id;
 	String name;
 	String gender;
@@ -36,9 +36,44 @@ class teacher{
 		gender=g;	
 	}
 }
+2.定义student类
 
+class student{	
+
+	int id;
+	String name;
+	String gender;
+	course course;
+	student(int i,String n,String g){
+		id=1;
+		name=n;
+		gender=g;
+	}
+	void xk(course n) {
+		course=n;
+	}
+}
+3.定义course类
+
+class course{
+
+	int id;
+	String cname;
+	String place;
+	String time;
+	teacher teacher;
+	course(int i,String n,String p,String t,teacher te){
+		id=i;
+		cname=n;
+		place=p;
+		time=t;
+		teacher=te;
+	}
+}
+4.选课
 
 public class xuanke {
+
 	public static void main(String[] args) {
 		//创建teacher对象
 		teacher t1=new teacher(1,"张三","男");
@@ -54,4 +89,3 @@ public class xuanke {
 	}
 
 }
-
