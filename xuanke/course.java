@@ -1,5 +1,5 @@
 package xuanke;
-//课程（编号、课程名称、上课地点、时间、......）
+//课程（编号、课程名称、上课地点、时间）
 class course{
 	int id;
 	String cname;

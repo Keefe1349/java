@@ -1,5 +1,5 @@
 package xuanke;
-//学生（编号、姓名、性别、所选课程、......）
+//学生（编号、姓名、性别、所选课程）
 class student{
 	int id;
 	String name;

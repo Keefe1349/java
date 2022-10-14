@@ -1,5 +1,5 @@
 package xuanke;
-//教师（编号、姓名、性别、所授课程、......）
+//教师（编号、姓名、性别、所授课程）
 class teacher{
 	int id;
 	String name;
