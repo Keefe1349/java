@@ -27,6 +27,40 @@
 
 五、关键代码
 ====
+1.创建People类
+
+public class People {
+
+	int id;
+	String name;
+	String gender;
+	Course course;
+	People(int i,String n,String g){
+		id=i;
+		name=n;
+		gender=g;
+	}
+}
+
+2.通过extends关键字继承People类
+
+class Students extends People {
+
+	String major;
+	Students(int i,String n,String g){
+		super(i,n,g);
+	}
+	void xk(Course n) {
+		course=n;
+	}
+}
+
+class Teacher extends People {
+
+	Teacher(int i,String n,String g){
+		super(i,n,g);
+	}
+}
 
 六、系统运行截图
 =====
