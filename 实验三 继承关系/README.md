@@ -62,5 +62,4 @@ class Teacher extends People {
 
 七、感想与体会
 =====
-
-
+学会了继承的用法，使代码更加简洁，测试实体类放在不同package中无法访问控制。
