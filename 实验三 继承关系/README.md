@@ -64,6 +64,7 @@ class Teacher extends People {
 
 六、系统运行截图
 =====
+![系统运行结果](https://github.com/Keefe1349/java/blob/main/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB/%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.png)
 
 七、感想与体会
 =====
