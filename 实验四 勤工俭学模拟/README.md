@@ -32,6 +32,7 @@
 
 五、流程图
 ===========
+![流程图](https://github.com/Keefe1349/java/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%8B%A4%E5%B7%A5%E4%BF%AD%E5%AD%A6%E6%A8%A1%E6%8B%9F/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 六、关键代码
 ============
@@ -62,4 +63,73 @@ public class Students {
 		}
 }
   
-  2、创建Laboratory类<br>
+2、创建Laboratory类<br>
+public class Laboratory {
+
+	int i;
+	String name;
+	String score[]=new String [5];
+	double income[]=new double [5];
+	Laboratory(String name,String score[]) {
+		this.name=name;
+		this.score=score;
+		while(i<score.length)
+		{
+			if(score[i].equals("优")) {
+				income[i]= 10000;
+			}
+			else if(score[i].equals("良")) {
+				income[i]=8000;
+			}
+			else if(score[i].equals("及格")) {
+				income[i]=5000;
+			}
+			else if(score[i].equals("不及格")) {
+				income[i]=2000;
+			}
+			i++;
+		}
+	}
+
+}
+
+3.建立Tax类<br>
+public class Tax {
+
+	static double rate;
+	static double incometax;
+	static double Tax(double x) {
+		incometax=0;
+		if(x<=5000) {
+			rate=0;
+			incometax+=x*rate;
+		}
+		else if(8000>=x&&x>5000) {
+			rate=0.03;
+			incometax+=(x-5000)*rate;
+		}
+		else if(17000>=x&&x>8000) {
+			rate=0.1;
+			incometax+=(x-5000)*rate;
+		}
+		else if(30000>=x&&x>17000) {
+			rate=0.2;
+			incometax+=(x-5000)*rate;
+		}
+		else if(40000>=x&&x>30000) {
+			rate=0.25;
+			incometax+=(x-5000)*rate;
+		}
+		x-=incometax;
+		return x;
+	}
+
+}
+
+七、系统运行截图
+=========
+![系统运行结果](https://github.com/Keefe1349/java/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%8B%A4%E5%B7%A5%E4%BF%AD%E5%AD%A6%E6%A8%A1%E6%8B%9F/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
+
+八、感想与体会
+==========
+学会了应用toString()方法,使用static修饰。
