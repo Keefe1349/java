@@ -21,7 +21,7 @@
 
 四、流程图
 ===========
-!(流程图)[]
+![流程图](https://github.com/Keefe1349/java/blob/main/%E5%AE%9E%E9%AA%8C%E5%85%AD%20%E6%96%87%E4%BB%B6%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 五、关键代码
 ===========
@@ -48,7 +48,8 @@ try {
 		}
 六、运行结果
 ==========
-!(运行结果)[https://github.com/Keefe1349/java/blob/main/%E5%AE%9E%E9%AA%8C%E5%85%AD%20%E6%96%87%E4%BB%B6%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png]
+![运行结果](https://github.com/Keefe1349/java/blob/main/%E5%AE%9E%E9%AA%8C%E5%85%AD%20%E6%96%87%E4%BB%B6%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
+
 七、感想与体会
 ===========
 学会了序列化、反序列化。
